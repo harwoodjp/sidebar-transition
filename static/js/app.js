@@ -18,12 +18,12 @@ function getArticleComment(id) {
 		[
 			{
 				"id": 0,
-				"title": "Article 1",
+				"title": "Variations of Lorem Ipsum",
 				"comments": ["This is a well-written article.", "Lorem ipsum is helpful in various situations", "Lorem ipsum is my favorite placeholder text."]
 			},
 			{
 				"id": 1,
-				"title": "Article 2",
+				"title": "Readable Content: Distracting?",
 				"comments": ["Everyone should use lorem ipsum when building webpage scaffolds.", "I prefer using real text."]
 			}
 		]
