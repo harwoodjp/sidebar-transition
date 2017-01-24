@@ -5,7 +5,7 @@ let clickedArticle, articleComments, articleTitle, commentsHtml;
 commentsBtns.forEach(function(btn) {
 	btn.addEventListener("click", function() {
 		clickedArticleComments = getArticleComment(btn.dataset.articleId);
-		renderCommentToHtml(clickedArticleComments);
+		renderCommentsToHtml(clickedArticleComments);
 		comments.classList.toggle("hide");
 		document.querySelector(".comments-content").classList.toggle("hide-force");		
 	})
@@ -33,7 +33,7 @@ function getArticleComment(id) {
 }
 
 
-function renderCommentToHtml(commentJsonObj) {
+function renderCommentsToHtml(commentJsonObj) {
 	articleComments = commentJsonObj["comments"];
 	articleTitle = commentJsonObj["title"];
 
